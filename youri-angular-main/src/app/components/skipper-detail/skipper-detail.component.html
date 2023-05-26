@@ -1,0 +1,10 @@
+<div *ngIf="skipper">
+  <h2>{{ skipper.naam | uppercase }} Details</h2>
+  <div>id: {{ skipper.id }}</div>
+  <div>
+    <label for="skipper-naam">Skipper name: </label>
+    <input id="skipper-naam" [(ngModel)]="skipper.naam" placeholder="name" />
+  </div>
+  <button type="button" (click)="goBack()">go back</button>
+  <button type="button" (click)="save()">save</button>
+</div>

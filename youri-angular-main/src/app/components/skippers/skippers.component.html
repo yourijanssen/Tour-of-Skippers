@@ -1,0 +1,8 @@
+<h2>My Skippers</h2>
+<ul class="skippers">
+  <li *ngFor="let skipper of skippers">
+    <a routerLink="/detail/{{ skipper.id }}">
+      <span class="badge">{{ skipper.id }}</span> {{ skipper.naam }}
+    </a>
+  </li>
+</ul>
