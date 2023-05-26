@@ -1,5 +1,5 @@
 # Tour-of-Skippers
-This repository contains the project where I first learned about using Angular & Sequelize.
+This repository contains the project where I first learned about using Angular, Express & Sequelize.
 
 # How to setup
 
