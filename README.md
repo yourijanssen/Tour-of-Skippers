@@ -1,5 +1,8 @@
 # Tour-of-Skippers
 This repository contains the project where I first learned about using Angular, Express & Sequelize.
+It is based on the Tour of Heroes tututorial from Angular:
+
+https://angular.io/tutorial/tour-of-heroes
 
 # How to setup
 
